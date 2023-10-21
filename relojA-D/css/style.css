@@ -86,3 +86,24 @@ body {
     position: absolute;
     border-radius: 50vh;
 }
+
+.reloj-digital {
+    position: absolute;
+    width: 120px; 
+    height: 28px; 
+    background-color: rgb(26, 34, 32); 
+    border: 1px solid rgb(226, 27, 76);
+    box-shadow: inset 0px 0px 3px 3px rgb(227, 47, 92);
+    color: rgb(112, 112, 112);
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 10px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    bottom: 59%; 
+    left: 50%;
+    transform: translate(-50%, 50%); 
+    z-index: -1; 
+}
